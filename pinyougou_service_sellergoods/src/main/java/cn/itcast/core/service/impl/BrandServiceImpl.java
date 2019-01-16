@@ -21,7 +21,7 @@ public class BrandServiceImpl implements BrandService {
     @Override
     public List<Brand> findAll() {
         System.out.println("============");
-        System.out.println("aaa1+++++++++++");
+        System.out.println("aaa2------------");
         System.out.println("aaa提交了一行代码");
         return brandDao.selectByExample(null);
     }
