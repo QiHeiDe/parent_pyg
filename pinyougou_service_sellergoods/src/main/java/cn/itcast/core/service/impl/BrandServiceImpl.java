@@ -22,6 +22,7 @@ public class BrandServiceImpl implements BrandService {
     public List<Brand> findAll() {
         System.out.println("============");
         System.out.println("aaa2------------");
+        System.out.println("master提交了一行代码");
         return brandDao.selectByExample(null);
     }
 }
