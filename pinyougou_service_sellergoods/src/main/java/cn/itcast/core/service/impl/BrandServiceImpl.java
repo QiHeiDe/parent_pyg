@@ -23,6 +23,7 @@ public class BrandServiceImpl implements BrandService {
         System.out.println("============");
         System.out.println("aaa2------------");
         System.out.println("master提交了一行代码");
+        System.out.println("aaa提交了一行代码");
         return brandDao.selectByExample(null);
     }
 }
